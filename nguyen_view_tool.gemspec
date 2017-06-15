@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Quoc Thai Nguyen Truong"]
   spec.email         = ["thai.nguyen@berkeley.edu"]
 
-  spec.summary       = %q{creating my first gem of copy right view.}
+  spec.summary       = %q{Creating my first gem of copy right view.}
   spec.description   = %q{Able to generated HTML for copy right view}
   spec.homepage      = "https://github.com/thai321/nguyen-view-tool.git"
   spec.license       = "MIT"
