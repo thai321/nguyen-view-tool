@@ -26,7 +26,7 @@ Or install it yourself as:
 before_action :set_copyright
 
 def set_copyright
-	@copyright = NguyenViewTool::Renderer.copyright 'Thai Nguyen', 'All rights reserved'
+	@copyright = NguyenViewTool::Renderer.copyright 'Your name', 'Message'
 end
 ```
 ## Development
