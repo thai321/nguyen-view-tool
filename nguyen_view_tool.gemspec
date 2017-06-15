@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{creating my first gem of copy right view.}
   spec.description   = %q{Able to generated HTML for copy right view}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/thai321/nguyen-view-tool.git"
   spec.license       = "MIT"
 
 
