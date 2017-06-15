@@ -22,13 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
+Update this to your application_helper.rb
 ```ruby
-before_action :set_copyright
-
-def set_copyright
-   @copyright = NguyenViewTool::Renderer.copyright 'Your name', 'Message'
+def copyright_helper
+    NguyenViewTool::Renderer.copyright 'Thai Nguyen', 'All rights reserved'
 end
 ```
+
+Use this anywhere in your html file
+```html
+<%= copyright_helper %>
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
